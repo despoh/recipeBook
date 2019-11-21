@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/createRecipeMenuButton"
+        android:title="New Recipe"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/spinner"
+        android:title="Sort By Rating"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+
+
+
+</menu>
